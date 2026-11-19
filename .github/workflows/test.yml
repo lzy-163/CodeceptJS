@@ -28,3 +28,6 @@ jobs:
         PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: true
         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
     - run: npm test
+      env:
+        PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: true
+        PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
